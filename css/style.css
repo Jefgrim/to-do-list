@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  color: beige;
+  background-color: rgb(219, 215, 215);
+  font-family: "Poppins", sans-serif;
+}
+.mainContainer {
+  background-color: gray;
+  min-width: 280px;
+  min-height: 300px;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.mainContainer h1 {
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.mainContainer form {
+  display: flex;
+  justify-content: center;
+}
+
+.formInp {
+  height: 30px;
+  border-radius: 3px;
+  border: 0;
+}
+
+.formBtn {
+  height: 32px;
+  border-radius: 3px;
+  border: 0;
+  margin-left: 3px;
+}
+
+.formBtn:hover {
+  background-color: green;
+}
+
+.mainContainer h2 {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+#todolistContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.todolistContent {
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgba(113, 107, 107, 0.596);
+  width: 200px;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.todolistContent h3 {
+  text-align: center;
+  word-wrap: break-word;
+  padding: 2px;
+}
+
+.contentBtnsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentBtnsContainer button {
+  width: 100%;
+  height: 20px;
+  border: 0;
+}
+
+.contentBtnsContainer button:hover {
+  background-color: rgba(0, 0, 0, 0.793);
+  color: beige;
+}
+
+.editForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.editForm button:hover {
+  background-color: rgba(0, 0, 0, 0.793);
+  color: beige;
+}
