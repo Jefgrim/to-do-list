@@ -101,3 +101,11 @@ body {
   background-color: rgba(0, 0, 0, 0.793);
   color: beige;
 }
+
+.leftCornerBtn {
+  border-radius: 0px 0px 0px 10px;
+}
+
+.rightCornerBtn {
+  border-radius: 0px 0px 10px 0px;
+}

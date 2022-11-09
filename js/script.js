@@ -16,6 +16,7 @@ function addToDo() {
 
   let editBtn = document.createElement("button");
   editBtn.textContent = "Edit";
+  editBtn.classList = "leftCornerBtn";
   editBtn.addEventListener("click", editValue);
 
   let delBtn = document.createElement("button");
@@ -24,6 +25,7 @@ function addToDo() {
 
   let doneBtn = document.createElement("button");
   doneBtn.textContent = "Done";
+  doneBtn.classList = "rightCornerBtn";
   doneBtn.addEventListener("click", doneToDo);
 
   // checks if the input value is not empty
