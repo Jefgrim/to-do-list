@@ -50,7 +50,7 @@ function addToDo() {
 
     let editInp = document.createElement("input");
     editInp.type = "text";
-    editInp.placeholder = "Input New To-Do";
+    editInp.placeholder = newToDoTitle.textContent;
     editInp.setAttribute("required", "");
 
     let saveBtn = document.createElement("button");
